@@ -27,7 +27,7 @@ namespace CircleObjects
 
 		public double CalculateArea()
 		{
-			double area = Math.PI * (Radius * Radius);
+			double area = Math.PI * (Radius * Radius); // or Math.PI * Math.Pow(Radius, 2);
 			return area;
 		}
 
