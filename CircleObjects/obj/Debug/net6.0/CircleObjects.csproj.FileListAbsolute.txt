@@ -1,0 +1,15 @@
+/Users/Alex/Projects/CircleObjects/CircleObjects/bin/Debug/net6.0/CircleObjects
+/Users/Alex/Projects/CircleObjects/CircleObjects/bin/Debug/net6.0/CircleObjects.deps.json
+/Users/Alex/Projects/CircleObjects/CircleObjects/bin/Debug/net6.0/CircleObjects.runtimeconfig.json
+/Users/Alex/Projects/CircleObjects/CircleObjects/bin/Debug/net6.0/CircleObjects.dll
+/Users/Alex/Projects/CircleObjects/CircleObjects/bin/Debug/net6.0/ref/CircleObjects.dll
+/Users/Alex/Projects/CircleObjects/CircleObjects/bin/Debug/net6.0/CircleObjects.pdb
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.csproj.AssemblyReference.cache
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.AssemblyInfoInputs.cache
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.AssemblyInfo.cs
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.csproj.CoreCompileInputs.cache
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.dll
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/ref/CircleObjects.dll
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.pdb
+/Users/Alex/Projects/CircleObjects/CircleObjects/obj/Debug/net6.0/CircleObjects.genruntimeconfig.cache
