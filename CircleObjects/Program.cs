@@ -6,7 +6,7 @@ List<Circle> allCircles = new List<Circle>(); //can make a list of your custom c
 bool looping = true;
 while (looping)
 {
-    double input = GetUserRadius();//put validator in a method
+    double input = Validator.GetUserRadius();//put validator in a method
 
     Circle newCircle = new Circle(input);
 
@@ -17,61 +17,16 @@ while (looping)
     Console.WriteLine($"Area: {area}");
     allCircles.Add(newCircle);
 
-    looping = GetContinue();
+    looping = Validator.GetContinue();
     Console.WriteLine();
 }
 
 //goodbye message
 Console.WriteLine($"You have created {allCircles.Count} circles. Goodbye");
 
-//METHODS
+//loop METHODS in validator class
 
-//get continue 
-static bool GetContinue()
-{
-    bool result = true;
 
-    while (true)
-    {
-        Console.Write("Continue? (y/n): ");
-        string choice = Console.ReadLine().ToLower().Trim();
-        if (choice == "y" || choice == "yes")
-        {
-            result = true;
-            break;
-        }
-        else if (choice == "n" || choice == "no")
-        {
-
-            result = false;
-            break;
-        }
-        else
-        {
-            Console.WriteLine("Please try again");
-        }
-    }
-    return result;
-}
-
-static double GetUserRadius()
-{
-    double input = 0;
-    while (true)
-    {
-        try
-        {
-            Console.Write("Enter a radius: ");
-            input = double.Parse(Console.ReadLine());
-            break;
-        }
-        catch (FormatException e)
-        {
-            Console.WriteLine(e.Message);
-        }
-    }
-    return input;
-}
 
 
 
